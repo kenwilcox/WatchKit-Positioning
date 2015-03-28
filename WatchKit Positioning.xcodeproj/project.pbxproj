@@ -36,6 +36,8 @@
 		BEF5C4D31AC63F5A004DCA40 /* WatchKit PositioningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchKit PositioningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5C4D81AC63F5A004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF5C4D91AC63F5A004DCA40 /* WatchKit_PositioningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKit_PositioningTests.swift; sourceTree = "<group>"; };
+		BEF5C4E31AC6410C004DCA40 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEF5C4E41AC6410C004DCA40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 		BEF5C4B51AC63F5A004DCA40 = {
 			isa = PBXGroup;
 			children = (
+				BEF5C4E31AC6410C004DCA40 /* LICENSE.md */,
+				BEF5C4E41AC6410C004DCA40 /* README.md */,
 				BEF5C4C01AC63F5A004DCA40 /* WatchKit Positioning */,
 				BEF5C4D61AC63F5A004DCA40 /* WatchKit PositioningTests */,
 				BEF5C4BF1AC63F5A004DCA40 /* Products */,
