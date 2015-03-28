@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKit_Positioning_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <switch width="1" height="43.5" alignment="left" value="YES" title="Switch" id="sTy-cg-sEM"/>
+                        <button width="1" height="136.5" alignment="left" verticalAlignment="center" title="Button" id="5sy-h5-QTb"/>
+                        <slider width="1" alignment="left" verticalAlignment="center" value="1" maximum="3" steps="3" id="QDk-0N-IEL"/>
+                        <label alignment="right" verticalAlignment="bottom" text="Hello World" id="d6j-Tx-i2T"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="305" y="389.25"/>
+        </scene>
+    </scenes>
+</document>
