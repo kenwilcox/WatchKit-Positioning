@@ -19,6 +19,7 @@
 		BEF5C4FE1AC648F5004DCA40 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C4FC1AC648F5004DCA40 /* Interface.storyboard */; };
 		BEF5C5001AC648F5004DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C4FF1AC648F5004DCA40 /* Images.xcassets */; };
 		BEF5C5041AC648F5004DCA40 /* WatchKit Positioning WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEF5C4EB1AC648F5004DCA40 /* WatchKit Positioning WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEF5C50C1AC798FC004DCA40 /* PositioningInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5C50B1AC798FC004DCA40 /* PositioningInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		BEF5C4FB1AC648F5004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF5C4FD1AC648F5004DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		BEF5C4FF1AC648F5004DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEF5C50B1AC798FC004DCA40 /* PositioningInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositioningInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				BEF5C4EF1AC648F5004DCA40 /* InterfaceController.swift */,
+				BEF5C50B1AC798FC004DCA40 /* PositioningInterfaceController.swift */,
 				BEF5C4F11AC648F5004DCA40 /* Images.xcassets */,
 				BEF5C4ED1AC648F5004DCA40 /* Supporting Files */,
 			);
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF5C4F01AC648F5004DCA40 /* InterfaceController.swift in Sources */,
+				BEF5C50C1AC798FC004DCA40 /* PositioningInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
