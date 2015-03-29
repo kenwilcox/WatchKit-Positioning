@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mEd-iy-NNC">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -18,6 +18,24 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="305" y="389.25"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="EfF-r1-UII">
+            <objects>
+                <controller id="mEd-iy-NNC">
+                    <items>
+                        <group width="1" height="174.5" alignment="left" radius="0.0" id="jvs-wt-4v1">
+                            <items>
+                                <button alignment="left" title="Yes" id="mmt-lm-9ZU"/>
+                                <button alignment="right" title="No" id="R1j-w9-6Bu"/>
+                            </items>
+                            <color key="backgroundColor" red="1" green="0.58953694810000001" blue="0.021298048390000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <edgeInsets key="margins" left="10" right="10" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="305" y="678.75"/>
         </scene>
     </scenes>
 </document>
