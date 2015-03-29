@@ -13,6 +13,7 @@ import Foundation
 class PositioningInterfaceController: WKInterfaceController {
   
   @IBOutlet weak var middleLabel: WKInterfaceLabel!
+  var middleAlpha:CGFloat = 1.0
   
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
@@ -32,6 +33,7 @@ class PositioningInterfaceController: WKInterfaceController {
   
   @IBAction func hideButtonPressed() {
 //    self.middleLabel.setHidden(true)
-    self.middleLabel.setAlpha(0.0)
+    self.middleAlpha = self.middleAlpha == 1.0 ? 0.0: 1.0
+    self.middleLabel.setAlpha(self.middleAlpha)
   }
 }

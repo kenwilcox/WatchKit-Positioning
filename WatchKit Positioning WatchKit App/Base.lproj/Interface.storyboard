@@ -45,7 +45,7 @@
                         <label width="1" alignment="left" text="Top Label" id="Dfn-yf-8Zx"/>
                         <label width="1" alignment="left" text="Middle Label" id="uRS-bW-gPk"/>
                         <label width="1" alignment="left" text="Bottom Label" id="gTP-1a-d0J"/>
-                        <button width="1" alignment="left" title="Hide" id="fnu-iE-zkA">
+                        <button width="1" alignment="left" title="Toggle Middle" id="fnu-iE-zkA">
                             <connections>
                                 <action selector="hideButtonPressed" destination="geZ-aB-hsZ" id="pme-fs-3MJ"/>
                             </connections>
